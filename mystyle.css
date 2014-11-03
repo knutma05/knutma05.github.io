@@ -1,2 +1,6 @@
 <h1>Maddy's link</h1>
+<style>
+h1 {
+  color:blue;
+}
 <link rel="stylesheet" href="mystyle.css" type="text/css">
