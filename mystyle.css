@@ -1,6 +1,13 @@
-<h1>Maddy's link</h1>
+<html>
+<head>
 <style>
 h1 {
   color:blue;
 }
+</style>
+</head>
+<body>
+<h1>Maddy's link</h1>
 <link rel="stylesheet" href="mystyle.css" type="text/css">
+</body>
+</html>
