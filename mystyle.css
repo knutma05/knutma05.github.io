@@ -1,7 +1,10 @@
 h1 {
   color: blue;
 }
-body {
+div {
   background-image: url("http://media-cache-ec0.pinimg.com/avatars/madsteryouknow-1405382020_140.jpg")
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-
 }
 
