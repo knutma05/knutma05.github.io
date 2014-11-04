@@ -3,7 +3,6 @@ h1 {
 }
 body {
   background-image: url("http://media-cache-ec0.pinimg.com/avatars/madsteryouknow-1405382020_140.jpg")
-  color: white;
 }
 h2 {
   color: white;
@@ -11,4 +10,6 @@ h2 {
 p {
   color: white;
 }
-
+table {
+  color: white;
+}
