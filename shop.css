@@ -7,7 +7,7 @@ h1, p#milk, p#cheese, p#yogurt {
 h2, p#salami, p#turkey, p#beef {
   color: blue;
 }
-h3 {
+h3, p#bread, p#crackers {
   color: red;
 }
 body {
