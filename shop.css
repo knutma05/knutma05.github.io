@@ -1,7 +1,10 @@
 h1, h2, h3, h4 {
   font-size: 200%;
 }
-h1, p#ma96 {
+h1 {
+  color: green;
+}
+p#ma96 {
   color: green;
 }
 h2, p#knut96 {
