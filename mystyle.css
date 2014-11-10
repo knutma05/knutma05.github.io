@@ -26,7 +26,7 @@ li.navigation {
   color: white;
 }
 section {
-  float: top;
+  float: top center;
   width: 75%;
   height: 30%;
   background-color: white;
