@@ -20,8 +20,8 @@ nav {
 }
 nav li {
   display: inline;
+  text-align:justify;
 }
 li.navigation {
   color: white;
-  text-align:justify;
 }
