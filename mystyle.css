@@ -25,3 +25,10 @@ nav li {
 li.navigation {
   color: white;
 }
+section {
+  float: top;
+  width: 75%;
+  height: 30%;
+  background-color: white;
+  color: black;
+}
