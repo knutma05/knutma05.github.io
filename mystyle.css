@@ -21,6 +21,6 @@ nav li {
 li.navigation {
   color: white;
 }
-a: link {
+a: link.navigation {
   color:white;
 }
