@@ -18,6 +18,7 @@ nav {
   margin-bottom: 50;
   background-color: black;
   text-align:center;
+  text-align:justify;
 }
 nav li {
   display: inline;
