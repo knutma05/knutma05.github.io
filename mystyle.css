@@ -8,10 +8,10 @@ body {
   background-color: grey;
 }
 p {
-  color: white;
+  color: black;
 }
 table {
-  color: white;
+  color: black;
 }
 nav {
   margin-top: 20px;
@@ -28,7 +28,7 @@ li.navigation {
 section {
   float: top center;
   width: 75%;
-  height: 30%;
+  height: 100%;
   background-color: white;
   color: black;
   margin-left: 150px;
