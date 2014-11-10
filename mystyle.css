@@ -18,7 +18,7 @@ nav {
 nav li {
   display: inline;
 }
-li.navigation {
+.navigation {
   color: white;
   text-align: justify;
 }
