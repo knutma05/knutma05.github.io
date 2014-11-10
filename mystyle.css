@@ -3,6 +3,7 @@ h1, h2, h3 {
 }
 body {
   background-image: url("http://media-cache-ec0.pinimg.com/avatars/madsteryouknow-1405382020_140.jpg")
+  background-color: grey;
 }
 p {
   color: white;
