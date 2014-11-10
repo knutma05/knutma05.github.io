@@ -10,3 +10,11 @@ p {
 table {
   color: white;
 }
+nav {
+  margin-top: 20px;
+  margin-bottom: 50;
+  background-color: black;
+}
+nav li {
+  display: inline;
+}
