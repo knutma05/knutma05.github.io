@@ -14,11 +14,11 @@ nav {
   margin-top: 20px;
   margin-bottom: 50;
   background-color: black;
-  text-align: justify;
 }
 nav li {
   display: inline;
 }
 li.navigation {
   color: white;
+  text-align: justify;
 }
