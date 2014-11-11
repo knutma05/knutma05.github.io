@@ -27,6 +27,8 @@ nav li {
   margin-bottom: 40px;
   margin-top: 40px;
   padding: 20px;
+   -webkit-transition: width 2s; 
+   transition: width 2s;
 }
 a:visited {
   text-decoration: none;
@@ -37,8 +39,6 @@ li.navigation {
   color: white;
   align-items: center;
   text-decoration: none;
-  -webkit-transition: width 2s; 
-   transition: width 2s;
 }
 section {
   float: top center;
