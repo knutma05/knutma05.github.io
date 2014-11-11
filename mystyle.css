@@ -37,6 +37,8 @@ li.navigation {
   color: white;
   align-items: center;
   text-decoration: none;
+  -webkit-transition: width 2s; 
+   transition: width 2s;
 }
 section {
   float: top center;
