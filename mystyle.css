@@ -17,6 +17,7 @@ table {
 nav {
   margin-top: 20px;
   margin-bottom: 15px;
+  border: 20px;
   background-color: black;
   text-align:center;
 }
