@@ -21,11 +21,12 @@ nav {
   background-color: black;
   text-align: center;
   font-size: 50pts;
-  word-spacing: 80px;
+  word-spacing: 200px;
 }
 nav li {
   display: inline;
   margin-bottom: 40px;
+  margin-top: 40px;
   color: white;
 }
 li.navigation {
