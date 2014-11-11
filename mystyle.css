@@ -39,9 +39,7 @@ li.navigation {
   text-decoration: none;
 }
 li.navigation:hover {
-  -ms-transform: rotate(7deg);
-    -webkit-transform: rotate(7deg);
-    transform: rotate(7deg);
+  width: 300px;
 }
 section {
   float: top center;
