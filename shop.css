@@ -24,3 +24,40 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
 }
+h1 {
+  text-align:center;
+}
+body {
+  background-color: aquamarine;
+  background
+}
+p {
+  color: black;
+}
+table {
+  color: black;
+}
+nav {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  height: 40px;
+  background-color: black;
+  text-align: center;
+  word-spacing: normal;
+}
+nav li {
+  display: inline;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  padding: 20px;
+}
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+li.navigation {
+  font-size: 30px;
+  color: white;
+  align-items: center;
+  text-decoration: none;
+}
