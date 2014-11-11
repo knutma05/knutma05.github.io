@@ -38,6 +38,6 @@ section {
   margin-bottom: 100px;
 }
 input {
-  position: relative;
+  position: static;
   right: 5px;
 }
