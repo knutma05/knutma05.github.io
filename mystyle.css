@@ -39,8 +39,10 @@ li.navigation {
   text-decoration: none;
 }
 li.navigation:hover {
-   -webkit-transition: width 2s; 
-   transition: width 2s;
+  -webkit-transition-property: width;
+  -webkit-transition-duration: 1s;
+  -webkit-transition-timing-function: linear;
+  -webkit-transition-delay: 2s;
 }
 section {
   float: top center;
