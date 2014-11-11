@@ -48,6 +48,8 @@ section {
   margin-right:50px;
   margin-top: 20px;
   margin-bottom: 100px;
+  border: 2px solid;
+  border-radius: 25px;
 }
 input {
   position: fixed;
