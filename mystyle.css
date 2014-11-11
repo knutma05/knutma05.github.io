@@ -32,10 +32,11 @@ li.navigation {
   font-size: 30px;
   color: white;
   align-items: center;
+  text-decoration: none;
 }
 a:visited {
   color: white;
-  text-decoration:none;
+  text-decoration: none;
 }
 section {
   float: top center;
