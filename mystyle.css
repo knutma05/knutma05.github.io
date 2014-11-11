@@ -28,6 +28,7 @@ nav li {
   margin-bottom: 40px;
   margin-top: 40px;
   color: white;
+  font-size: 100%;
 }
 li.navigation {
   font-size: 50pts;
@@ -47,4 +48,5 @@ input {
   position: fixed;
   right: 20px;
   top: 75px;
+  padding: 50px;
 }
