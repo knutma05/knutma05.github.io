@@ -27,11 +27,12 @@ nav li {
   margin-bottom: 40px;
   margin-top: 40px;
   padding: 20px;
+  align-items: center;
 }
 li.navigation {
   font-size: 30px;
   color: white;
-  align-items: center
+  align-items: center;
 }
 section {
   float: top center;
