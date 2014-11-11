@@ -38,9 +38,6 @@ li.navigation {
   align-items: center;
   text-decoration: none;
 }
-li.navigation:hover {
-  width: 300px;
-}
 section {
   float: top center;
   width: 75%;
