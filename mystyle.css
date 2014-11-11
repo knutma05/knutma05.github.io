@@ -23,10 +23,10 @@ nav {
 }
 nav li {
   display: inline;
-  margin-top: 20px;
 }
 li.navigation {
   color: white;
+  margin-top: 20px;
 }
 section {
   float: top center;
