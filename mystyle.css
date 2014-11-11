@@ -59,4 +59,5 @@ input {
 }
 h2, h3, p, ul#work, table {
   padding-top: 100px;
+  text-align: justify;
 }
