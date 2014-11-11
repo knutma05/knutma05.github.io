@@ -10,7 +10,6 @@ body {
 }
 p {
   color: black;
-  margin-top: 20px;
 }
 table {
   color: black;
@@ -35,6 +34,6 @@ section {
   color: black;
   margin-left: 150px;
   margin-right:50px;
-  margin-top: 0px;
+  margin-top: 20px;
   margin-bottom: 100px;
 }
