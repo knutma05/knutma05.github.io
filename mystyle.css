@@ -27,6 +27,9 @@ nav li {
   color: white;
   font-size: 50pts;
 }
+li.navigation {
+  font-size: 50pts;
+}
 section {
   float: top center;
   width: 75%;
