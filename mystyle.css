@@ -23,6 +23,7 @@ nav {
 }
 nav li {
   display: inline;
+  margin-top: 20px;
 }
 li.navigation {
   color: white;
