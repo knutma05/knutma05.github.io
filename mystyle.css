@@ -20,13 +20,13 @@ nav {
   height: 40px;
   background-color: black;
   text-align: center;
-  word-spacing: 100px;
+  word-spacing: 80px;
 }
 nav li {
   display: inline;
   margin-bottom: 40px;
   margin-top: 40px;
-  padding: 40px;
+  padding: 20px;
 }
 li.navigation {
   font-size: 30px;
@@ -47,4 +47,5 @@ input {
   position: fixed;
   right: 20px;
   top: 75px;
+  padding: 10px;
 }
