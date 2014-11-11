@@ -20,7 +20,7 @@ nav {
   height: 40px;
   background-color: black;
   text-align: center;
-  word-spacing: 80px;
+  word-spacing: normal;
 }
 nav li {
   display: inline;
