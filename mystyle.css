@@ -27,11 +27,11 @@ nav li {
   display: inline;
   margin-bottom: 40px;
   margin-top: 40px;
-  color: white;
-  font-size: 100%;
+  padding: 40px;
 }
 li.navigation {
-  font-size: 50pts;
+  font-size: 100px;
+  color: white;
 }
 section {
   float: top center;
@@ -48,5 +48,4 @@ input {
   position: fixed;
   right: 20px;
   top: 75px;
-  padding: 50px;
 }
