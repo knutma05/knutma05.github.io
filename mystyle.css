@@ -50,7 +50,6 @@ section {
   margin-bottom: 100px;
   border: 0% solid;
   border-radius: 75%;
-  text-align: center;
 }
 input {
   position: absolute;
@@ -59,5 +58,5 @@ input {
 }
 h2, h3, p, ul#work, table {
   padding-top: 100px;
-  text-align: justify;
+  text-align: center;
 }
