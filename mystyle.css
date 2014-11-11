@@ -58,5 +58,7 @@ input {
 }
 h2,p {
   text-align: center;
-  width: 70%;
+  margin-left: 100px;
+  margin-right: 45px;
+  
 }
