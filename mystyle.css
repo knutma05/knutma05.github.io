@@ -1,5 +1,5 @@
 h1, h2, h3 {
-  color: white;
+  color: black;
 }
 h1 {
   text-align:center;
@@ -9,10 +9,10 @@ body {
   background
 }
 p {
-  color: white;
+  color: black;
 }
 table {
-  color: white;
+  color: black;
 }
 nav {
   margin-top: 20px;
