@@ -28,15 +28,15 @@ nav li {
   margin-top: 40px;
   padding: 20px;
 }
+a:visited {
+  text-decoration: none;
+  color: white;
+}
 li.navigation {
   font-size: 30px;
   color: white;
   align-items: center;
   text-decoration: none;
-}
-a:visited {
-  text-decoration: none;
-  color: white;
 }
 section {
   float: top center;
