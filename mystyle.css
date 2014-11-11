@@ -38,5 +38,6 @@ section {
   margin-bottom: 100px;
 }
 input {
-  position: fixed right;
+  position: fixed;
+  right: 5px;
 }
