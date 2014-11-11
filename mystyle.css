@@ -19,8 +19,9 @@ nav {
   margin-bottom: 0px;
   height: 40px;
   background-color: black;
-  text-align: justify;
+  text-align: center;
   font-size: 50pts;
+  word-spacing: 30px;
 }
 nav li {
   display: inline;
