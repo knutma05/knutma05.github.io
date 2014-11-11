@@ -19,7 +19,7 @@ nav {
   margin-bottom: 0px;
   height: 40px;
   background-color: black;
-  text-align:center;
+  justify-content: space-around
   font-size: 50pts;
 }
 nav li {
