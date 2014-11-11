@@ -35,7 +35,7 @@ li.navigation {
 }
 a:visited {
   color: white;
-  text-decoration: none;
+  text-decoration:none;
 }
 section {
   float: top center;
