@@ -56,7 +56,7 @@ input {
   right: 20px;
   top: 75px;
 }
-h2,p,ul#work {
+h2,p,ul#work,h3,table {
   text-align: center;
   margin-left: 250px;
   margin-right: 250px;
