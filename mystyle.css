@@ -38,5 +38,5 @@ section {
   margin-bottom: 100px;
 }
 input {
-  text-align: right;
+  position: fixedright;
 }
