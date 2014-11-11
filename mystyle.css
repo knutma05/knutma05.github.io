@@ -57,3 +57,6 @@ input {
   right: 20px;
   top: 75px;
 }
+h2, h3, p, ul, table {
+  padding-top: 100px;
+}
