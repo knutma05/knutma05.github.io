@@ -20,12 +20,12 @@ nav {
   height: 40px;
   background-color: black;
   text-align:center;
+  font-size: 50pts;
 }
 nav li {
   display: inline;
   margin-bottom: 40px;
   color: white;
-  font-size: 50pts;
 }
 li.navigation {
   font-size: 50pts;
