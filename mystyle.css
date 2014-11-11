@@ -33,6 +33,9 @@ li.navigation {
   color: white;
   align-items: center;
 }
+a:visited {
+  color: white;
+}
 section {
   float: top center;
   width: 75%;
