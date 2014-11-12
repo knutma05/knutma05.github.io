@@ -1,5 +1,5 @@
-.pics {
-  width: 8%;
-  height: 8%;
+img.pics {
+  width: auto;
+  height: auto;
   display: inline;
 }
