@@ -1,4 +1,5 @@
 img.pics {
-  image-size: 50px;
+  width: 50px;
+  height: 50px;
   display: inline;
 }
