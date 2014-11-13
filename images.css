@@ -7,7 +7,7 @@
 }
 #guitar {
   width: 300px;
-  height: 100px;
+  height: 300px;
   margin: 5px;
   padding: 10px;
   float: left;
@@ -21,13 +21,13 @@
 }
 #soccer {
   width: 300px;
-  height: 100px;
+  height: 300px;
   padding: 10px;
   float: left;
 }
 #friends {
   width: 300px;
-  height: 100px;
+  height: 300px;
   padding: 10px;
   float: left;
 }
