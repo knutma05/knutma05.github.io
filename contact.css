@@ -43,11 +43,17 @@ h1 {
   text-align:center;
 }
 h1#email {
- float: left;
+ position: absolute;
+ left: 10px;
+ top: 20px;
 }
 h1#phone {
-
+ position: absolute;
+ left: 10px;
+ top: 40px;
 }
 h1#spo {
-
+ position: absolute;
+ left: 10px;
+ top: 60px;
 }
