@@ -5,6 +5,7 @@
   padding: 10px;
   float: left;
    -webkit-transition: width 2s;
+   -webkit-transform: rotate(360deg);
     transition: width 2s, height 2s, transform 2s;
 }
 #wed:hover {
