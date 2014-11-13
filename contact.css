@@ -27,15 +27,6 @@ li.navigation {
   align-items: center;
   text-decoration: none;
 }
-section {
-  float: top center;
-  width: 75%;
-  height: 100%;
-  background-color: azure;
-  color: black;
-  margin-left: 150px;
-  margin-right:150px;
-}
 body {
   background-color: aquamarine;
 }
