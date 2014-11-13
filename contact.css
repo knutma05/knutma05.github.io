@@ -1,0 +1,44 @@
+ input {
+  position: absolute;
+  right: 20px;
+  top: 75px;
+  }
+  nav {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  height: 40px;
+  background-color: black;
+  text-align: center;
+  word-spacing: normal;
+}
+nav li {
+  display: inline;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  padding: 20px;
+}
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+li.navigation {
+  font-size: 30px;
+  color: white;
+  align-items: center;
+  text-decoration: none;
+}
+section {
+  float: top center;
+  width: 75%;
+  height: 100%;
+  background-color: azure;
+  color: black;
+  margin-left: 150px;
+  margin-right:150px;
+}
+body {
+  background-color: aquamarine;
+}
+h1 {
+  text-align:center;
+}
