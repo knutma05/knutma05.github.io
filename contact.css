@@ -42,18 +42,18 @@ body {
 h1 {
   text-align:center;
 }
-h1#email {
+.email {
  position: absolute;
  left: 10px;
- top: 20px;
+ top: 100px;
 }
-h1#phone {
+.phone {
  position: absolute;
  left: 10px;
- top: 40px;
+ top: 140px;
 }
-h1#spo {
+.spo {
  position: absolute;
  left: 10px;
- top: 60px;
+ top: 160px;
 }
