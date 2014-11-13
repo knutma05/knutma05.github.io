@@ -1,18 +1,18 @@
-.wed {
-  width: auto;
-  height: auto;
+#wed {
+  width: 50px;
+  height: 50px;
   margin: 5px;
   padding: 10px;
   float: left;
 }
-.guitar {
-  width: auto;
-  height: auto;
+#guitar {
+  width: 50px;
+  height: 50px;
   margin: 5px;
   padding: 10px;
   float: left;
 }
-.girl {
+#girl {
   width: 50px;
   height: 50px;
   margin: 5px;
