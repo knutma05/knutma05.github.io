@@ -7,7 +7,7 @@
    -webkit-transition: width 2s;
     transition: width 2s;
 }
-#wed img:hover {
+#wed:hover {
   width: 700px;
 }
 #guitar {
