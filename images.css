@@ -4,6 +4,8 @@
   margin: 5px;
   padding: 10px;
   float: left;
+   -webkit-transition: width 2s;
+    transition: width 2s;
 }
 #wed img:hover {
   width: 700px;
