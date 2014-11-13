@@ -1,9 +1,11 @@
-#wed a:hover {
+#wed {
   width: 300px;
   height: 300px;
   margin: 5px;
   padding: 10px;
   float: left;
+}
+#wed a:hover {
   -webkit-transition: width 2s;
     transition: width 2s, height 2s;
 }
