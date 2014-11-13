@@ -10,6 +10,7 @@
 #wed:hover {
   width: 700px;
   height: 700px;
+  z-index: -1;
 }
 #guitar {
   width: 300px;
