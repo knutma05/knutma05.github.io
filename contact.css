@@ -1,9 +1,16 @@
- input {
-  position: absolute;
-  right: 20px;
-  top: 75px;
-  }
-  nav {
+h1 {
+  text-align:center;
+}
+body {
+  background-color: aquamarine;
+}
+p {
+  color: black;
+}
+table {
+  color: black;
+}
+nav {
   margin-top: 20px;
   margin-bottom: 0px;
   height: 40px;
@@ -27,12 +34,27 @@ li.navigation {
   align-items: center;
   text-decoration: none;
 }
-body {
-  background-color: aquamarine;
+section {
+  float: top center;
+  width: 75%;
+  height: 100%;
+  background-color: azure;
+  color: black;
+  margin-left: 150px;
+  margin-right:150px;
 }
-h1 {
-  text-align:center;
+input {
+  position: absolute;
+  right: 20px;
+  top: 75px;
 }
+h2,p,ul#work,h3,table {
+  text-align: center;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding: 10px;
+}
+
 h1#email {
  position: absolute;
  left: 10px;
