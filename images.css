@@ -6,8 +6,7 @@
   float: left;
 }
 #wed img:hover {
-  -webkit-transition: width 2s;
-    transition: width 2s, height 2s;
+  width: 300px;
 }
 #guitar {
   width: 300px;
