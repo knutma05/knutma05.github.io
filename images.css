@@ -5,7 +5,7 @@
   padding: 10px;
   float: left;
    -webkit-transition: width 2s;
-    transition: width 2s;
+    transition: width 2s, height 2s, transform 2s;
 }
 #wed:hover {
   width: 700px;
