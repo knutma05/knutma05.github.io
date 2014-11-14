@@ -4,7 +4,10 @@ section {
   height: 170px;
   width: 170px;
   border: 2px solid;
-  background-radius: 10;
+  border-radius: 10px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
   }
   .question {
     background-color: lightblue;
@@ -12,13 +15,18 @@ section {
   .answer {
     background-color: lightgreen;
   }
+  nav {
+    position: relative;
+  }
 </style>
   <body>
+    <nav>
     <section class=question>
       <p>What came first, the chicken or the egg?</p>
     </section>
     <section class=answer>
       <p>Egg or chicken</p>
     </section>
+    </nav>
   </body>
 </html>
