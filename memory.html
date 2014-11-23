@@ -1,14 +1,14 @@
 <html>
 <body>
   <checkbox onclick="changeThisPageFunc();">Check Me</checkbox>
-  <nav>0</nav>
+  <p>0</p>
       <script type="text/javascript">
           counter= 0;
          changeThisPageFunc = function() {
                counter = counter + 1;
-             var nav = document.querySelector('nav');
-             nav.innerHTML= counter;
-             nav.document.style.fontSize= counter;
+             var p = document.querySelector('p');
+             p.innerHTML= counter;
+             p.document.style.fontSize= counter;
          }
       </script>
 </body>
