@@ -71,7 +71,7 @@ li.navigation {
    </ul>
 </nav>
 <ul id="grocerylist"></ul>
-<input id="cb" type="checkbox" onclick="updateCounter">
+<input id="cb" type="checkbox" onclick="theCheckbox">
 <aside>
   <input id="item" type="text"  size="40">
   <select id="dropdown">
@@ -83,7 +83,7 @@ li.navigation {
  <button onclick="addItem();">Add</button>
  </aside>
  <script>
-   updateCounter = function(cb) {
+   theCheckbox = function() {
      theCheckbox.document.querySelector("#cb");
      if (theCheckbox.checked) {
        text-decoration: line-through;
