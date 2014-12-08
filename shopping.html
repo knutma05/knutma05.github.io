@@ -1,13 +1,4 @@
 <html>
-<script>
-  <input type="text" value="blank" size="40">
-  <select id="dropdown">
-    <option>Dairy</option>
-    <option>Meat</option>
-    <option>Grain</option>
-    <option>Snack</option>
- </select>
-</script>
 <style>
 script {
   position: bottom;
@@ -109,6 +100,20 @@ input {
     <li>Cheetos</li>
     <li>Fruit snacks</li>
     <li>Capri Suns</li>
+  
+  <input type="text" value="blank" size="40">
+  <select id="dropdown">
+    <option>Dairy</option>
+    <option>Meat</option>
+    <option>Grain</option>
+    <option>Snack</option>
+  </select>
+ <button onclick="addItem();">Add</button>
+ <script>
+   addItem = function() {
+  ul.appendChild(li)
+   }
+ </script>
 </body>
 
 </html>
