@@ -80,6 +80,7 @@ li.navigation {
     <option>Snack</option>
   </select>
  <button onclick="addItem();">Add</button>
+ <input type="checkbox">
  </aside>
  <script>
    addItem = function() {
@@ -90,9 +91,10 @@ li.navigation {
      myLi.appendChild(myGrocery);
      myUL.appendChild(myLi);
      myTextBox.value="";
-    if (theAdditem.clicked) {
-      checkbox = checked;
+     myCheckbox = document.createElement('input');
+     myLi.appendChild(myCheckbox);
    }
+   
  </script>
 </body>
 
