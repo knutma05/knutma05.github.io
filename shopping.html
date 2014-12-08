@@ -71,7 +71,6 @@ li.navigation {
    </ul>
 </nav>
 <ul id="grocerylist"></ul>
-<input id="cb" type="checkbox" onclick="theCheckbox">
 <aside>
   <input id="item" type="text"  size="40">
   <select id="dropdown">
@@ -83,11 +82,6 @@ li.navigation {
  <button onclick="addItem();">Add</button>
  </aside>
  <script>
-   theCheckbox = function() {
-     theCheckbox.document.querySelector("#cb");
-     if (theCheckbox.checked) {
-       text-decoration: line-through;
-     } 
    addItem = function() {
      myUL = document.querySelector('#grocerylist');
      myTextBox = document.querySelector('#item');
@@ -96,7 +90,10 @@ li.navigation {
      myLi.appendChild(myGrocery);
      myUL.appendChild(myLi);
      myTextBox.value="";
-   }
+     theCheckbox.document.querySelector('#cb');
+     if (theCheckbox.checked) {
+       text-decoration: line-through;
+     }
  </script>
 </body>
 
