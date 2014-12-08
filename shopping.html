@@ -69,7 +69,9 @@ li.navigation {
 <body>
 <title>Grocery List</title>
 <body>
+<main>
 <h1 id="maddy">Madeline Knutson</h1>
+</main>
 <nav>
 <ul color=white>
   <li class=navigation><a href="index.html">Home</a></li>
@@ -80,9 +82,7 @@ li.navigation {
    </ul>
 </nav>
   <h1>Dairy</h1>
-    <li id="cheese"></li>
-    <li id="milk"></li>
-    <li id="yogurt"></li>
+    <ul id="dairy"></ul>
  <h2>Meat</h2>
     <li id="salami"></li>
     <li id="turkey"></li>
@@ -94,7 +94,7 @@ li.navigation {
     <li></li>
     <li></li>
     <li></li>
-  
+<aside>
   <input id="item" type="text" value="blank" size="40">
   <select id="dropdown">
     <option>Dairy</option>
@@ -103,9 +103,16 @@ li.navigation {
     <option>Snack</option>
   </select>
  <button onclick="addItem();">Add</button>
+ </aside>
  <script>
    addItem = function() {
-  litem.appendChild(ul)
+     myUL = document.querySelector('#maddy');
+     myTextBox = document.querySelector('#item');
+     myLi = document.createElement('li');
+     myGrocery = document.createTextNode(myTextBox.value);
+     myLi.appendChild(myGrocery);
+     myUl.appendChild(myLi);
+     myTextBox.value="";
    }
  </script>
 </body>
