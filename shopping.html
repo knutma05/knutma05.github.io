@@ -72,14 +72,7 @@ li.navigation {
   <li class=navigation><a href="shopping.html">Shop</a></li>
    </ul>
 </nav>
-  <h1>Dairy</h1>
-    <ul id="dairy"></ul>
- <h2>Meat</h2>
-    <ul id="meat"</ul>
-  <h3>Grains</h3>
-     <ul id="grains"></ul>
-  <h4>Snacks</h4>
-    <ul id="snacks"></ul>
+<ul id="grocerylist"></ul>
 <aside>
   <input id="item" type="text"  size="40">
   <select id="dropdown">
@@ -92,7 +85,7 @@ li.navigation {
  </aside>
  <script>
    addItem = function() {
-     myUL = document.querySelector('#maddy');
+     myUL = document.querySelector('#grocerylist');
      myTextBox = document.querySelector('#item');
      myLi = document.createElement('li');
      myGrocery = document.createTextNode(myTextBox.value);
