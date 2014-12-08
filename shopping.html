@@ -83,12 +83,8 @@ li.navigation {
  <button onclick="addItem();">Add</button>
  </aside>
  <script>
-   updateCounter = function(cbId) {
-     theCheckbox.document.querySelector("#"+cbId)
-     if (theCheckbox.checked) {
-       display: none;
-     } else {
-       display: visible;
+   updateCounter = function(cb) {
+     theCheckbox.document.querySelector("#"+cb)
    }
    addItem = function() {
      myUL = document.querySelector('#grocerylist');
