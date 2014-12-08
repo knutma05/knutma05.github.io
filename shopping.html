@@ -81,7 +81,6 @@ li.navigation {
   </select>
  <button onclick="addItem();">Add</button>
  </aside>
- <input value="grocerylist" type="checkbox"></br>
  <script>
    addItem = function() {
      myUL = document.querySelector('#grocerylist');
@@ -91,6 +90,7 @@ li.navigation {
      myLi.appendChild(myGrocery);
      myUL.appendChild(myLi);
      myTextBox.value="";
+     <input value="grocerylist" type="checkbox">
      theCheckbox.document.querySelector('#cb');
      if (theCheckbox.checked) {
        text-decoration: line-through;
