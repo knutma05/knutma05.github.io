@@ -60,9 +60,7 @@ li.navigation {
 <body>
 <title>Grocery List</title>
 <body>
-<main>
 <h1 id="maddy">Madeline Knutson</h1>
-</main>
 <nav>
 <ul color=white>
   <li class=navigation><a href="index.html">Home</a></li>
@@ -73,6 +71,7 @@ li.navigation {
    </ul>
 </nav>
 <ul id="grocerylist"></ul>
+<input id="cb" type="checkbox" onclick="updateCounter">
 <aside>
   <input id="item" type="text"  size="40">
   <select id="dropdown">
@@ -84,6 +83,13 @@ li.navigation {
  <button onclick="addItem();">Add</button>
  </aside>
  <script>
+   updateCounter = function(cbId) {
+     theCheckbox.document.querySelector("#"+cbId)
+     if (theCheckbox.checked) {
+       display: none;
+     } else {
+       display: visible;
+   }
    addItem = function() {
      myUL = document.querySelector('#grocerylist');
      myTextBox = document.querySelector('#item');
