@@ -91,16 +91,12 @@ li.navigation {
      myLi.appendChild(myGrocery);
      myUL.appendChild(myLi);
      myTextBox.value="";
+     theChedkbox = document.querySelector('cb')
+     if (theCheckbox.checked) {
+       text-decoration = line-through;
+   } else {
+     text-decoration = none;
    }
-   theCheckbox = function(cbId) {
-               theCheckbox = document.querySelector("#"+cbId);
-               if (theCheckbox.checked) {
-                     text-decoration = line-through;
-               } else {
-                    text-decoration = none;
-               }
-             countSpot= document.querySelector('#myCounter');
-             countSpot.innerHTML= "Correct: " + counter;
  </script>
 </body>
 </html>
