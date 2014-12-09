@@ -92,12 +92,12 @@ li.navigation {
      myUL.appendChild(myLi);
      myTextBox.value="";
    }
-   updateCounter = function(cbId) {
+   theCheckbox = function(cbId) {
                theCheckbox = document.querySelector("#"+cbId);
                if (theCheckbox.checked) {
-                     counter = counter + 1;
+                     text-decoration = line-through;
                } else {
-                     counter = counter - 1;
+                    text-decoration = none;
                }
              countSpot= document.querySelector('#myCounter');
              countSpot.innerHTML= "Correct: " + counter;
