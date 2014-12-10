@@ -78,8 +78,8 @@ li.navigation {
      var createCheckBox = document.createElement("input");
      createCheckBox.type="checkbox";
      myCat = document.querySelector('#dropdown');
-     myTac = document.createTextNode(myCat.value);
-     myLi.classList.add(myTac);
+     
+     myLi.classList.add(myCat.value);
      myLi.appendChild(createCheckBox);
      
      myGrocery = document.createTextNode(myTextBox.value);
