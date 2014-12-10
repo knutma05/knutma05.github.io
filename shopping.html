@@ -79,7 +79,6 @@ li.navigation {
  <button onclick="addItem();">Add</button>
  </aside>
  <script>
- counter = 0;
    addItem = function() {
      myUL = document.querySelector('#grocerylist');
      myTextBox = document.querySelector('#item');
@@ -87,20 +86,17 @@ li.navigation {
      
      var createCheckBox = document.createElement("input");
      createCheckBox.type="checkbox";
-     createCheckBox.id="cb" + counter;
+     myCat = document.querySelector('#dropdown');
+     myCat = document.createTextNode(myCat.value);
+     myLi.classList.add('')
      myLi.appendChild(createCheckBox);
      
      myGrocery = document.createTextNode(myTextBox.value);
      myLi.appendChild(myGrocery);
      myUL.appendChild(myLi);
      
-     counter = counter + 1;
      myTextBox.value="";
-     
-     myLi.classList.add('meat.value');
-     myLi.classList.add('grains.value');
-     myLi.classList.add('dairy.value');
-     myLi.classList.add('snack.value');
+
    }
    checkme = function('cb') {
      myCb.onclick = checkme;
