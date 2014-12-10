@@ -3,15 +3,6 @@
 #item {
   margin-bottom: 20px;
 }
-dairy.value {
-  color: green;
-}
-meat.value {
-  color: blue;
-}
-grains.value {
-  color: red;
-}
 #maddy {
   text-align:center;
   color: black;
@@ -87,8 +78,8 @@ li.navigation {
      var createCheckBox = document.createElement("input");
      createCheckBox.type="checkbox";
      myCat = document.querySelector('#dropdown');
-     myCat = document.createTextNode(myCat.value);
-     myLi.classList.add('myCat')
+     myTac = document.createTextNode(myCat.value);
+     myLi.classList.add(myTac);
      myLi.appendChild(createCheckBox);
      
      myGrocery = document.createTextNode(myTextBox.value);
