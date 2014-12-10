@@ -15,7 +15,7 @@ h2, #meat {
 h3, #grains {
   color: red;
 }
-h1#maddy {
+h1, #maddy {
   text-align:center;
   color: black;
 }
@@ -99,6 +99,16 @@ li.navigation {
      
      counter = counter + 1;
      myTextBox.value="";
+     
+     myLi.classList.add('meat.value');
+     myLi.classList.add('grains.value');
+     myLi.classList.add('dairy.value');
+     myLi.classList.add('snack.value');
+   }
+   checkme = function('cb') {
+     myCb.onclick = checkme;
+     myLi.classList.add('done');
+     this.parentNode.classList.delete("done");
    }
  </script>
 </body>
